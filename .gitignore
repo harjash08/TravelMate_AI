@@ -1,62 +1,34 @@
-# ==============================
-# Environment Variables & Secrets
-# ==============================
-.env
-.env.*
-!.env.example
+# Python cache
+__pycache__/
+*.py[cod]
 
-# ==============================
-# Python Virtual Environments
-# ==============================
+# Virtual environments
 venv/
 .venv/
 env/
 
-# ==============================
-# Python Cache
-# ==============================
-__pycache__/
-*.py[cod]
-*$py.class
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# ==============================
-# Testing & Coverage
-# ==============================
+# IDE
+.vscode/
+.idea/
+
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
 
-# ==============================
 # Logs
-# ==============================
 *.log
 
-# ==============================
-# IDE & Editors
-# ==============================
-.vscode/
-.idea/
-
-# ==============================
-# Operating System
-# ==============================
+# OS files
 .DS_Store
 Thumbs.db
 
-# ==============================
-# Temporary Files
-# ==============================
-*.tmp
-*.bak
-
-# ==============================
-# Build Files
-# ==============================
+# Build files
 build/
 dist/
 *.egg-info/
-
-# ==============================
-# Jupyter Notebook
-# ==============================
-.ipynb_checkpoints/
